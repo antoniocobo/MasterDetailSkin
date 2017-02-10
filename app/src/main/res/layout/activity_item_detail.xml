@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/articulo_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemDetailActivity">
+
+    <WebView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/margen_estandar"
+        android:paddingTop="@dimen/margen_estandar"
+        android:scrollbarStyle="outsideOverlay">
+
+    </ScrollView>
+
+</LinearLayout>
